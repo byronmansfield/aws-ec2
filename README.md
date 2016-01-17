@@ -31,6 +31,19 @@ Or you can pass in `region` or `environment`
 ./aws-tools -region=us-east-1 -environment=dev
 ```
 
+#### Example output
+
+```
+Number of instances:  1
+Name:  perfman
+Environment:  dev
+ID:  i-34052bf4
+Private IP:  10.9.2.113
+State:  running
+Launched:  2015-10-21 22:56:34 +0000 UTC
+Type:  c4.large
+```
+
 ## Other notes
 
 It is a work in progress and already needs some refactoring in order to scale. I hope to add some error handling to it, as well as more filtering, possibly even colors to make it easier to read. 
